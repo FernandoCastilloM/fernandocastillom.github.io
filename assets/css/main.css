@@ -1660,18 +1660,19 @@ input, select, textarea {
 			opacity: 0;
 		}
 		/* fotos paralelas */ 
-		.image-row {
-    display: flex;
-    gap: 1.5em;
-    margin-bottom: 2em;
-}
+	.image-row {
+	    display: flex;
+	    gap: 1.5em;
+	    margin-bottom: 2em;
+	}
+	
+	.image-row .image {
+	    flex: 1;
+	}
+	
+	.image-row img {
+	    width: 100%;
+	    height: auto;
+	    border-radius: 4px;
+	}
 
-.image-row .image {
-    flex: 1;
-}
-
-.image-row img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
